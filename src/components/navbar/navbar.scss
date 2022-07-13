@@ -1,0 +1,38 @@
+.nav-btn{
+    border:none;
+    background:rgb(24, 140, 186);
+    border-radius:15px;
+
+    a{
+        color:rgb(55, 60, 60);
+        text-decoration:none;
+   
+
+    }
+}
+
+ul{
+    li{
+      a{
+        text-decoration: none;
+        color: #fff;
+  
+        &:hover{
+          color:rgb(0, 213, 255);
+          
+        }
+  
+        
+        &:focus{
+          color:rgb(10, 88, 103);
+
+          
+        }
+      }
+    }
+  }
+  
+  
+  .bg-nav{
+    background: #032030 ;
+  }

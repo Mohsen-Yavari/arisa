@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'B-Nazanin';
+  font-family: 'Mj_Nova_0';
+  src: local('Mj_Nova_0'), url(./fonts/Mj_Nova_0.ttf) format('truetype');
+  src: local('B-Nazanin'), url(./fonts/B-NAZANIN.TTF) format('truetype');
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "B-Nazanin";
+}
+
+:root{
+  --text-color:rgb(39, 38, 38);
+  --paymani:(font-family: "Mj_Nova_0";)
+}
+
+body {
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:#fff;
+}
